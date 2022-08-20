@@ -8,5 +8,4 @@ divideEach= float(totalBill)/int(noPeople)
 
 totalPay= float(divideEach) + float(divideEach*(float(percentageTip)/100))
 
-print("Each one of " +noPeople +" of you should pay \n")
-print(totalPay)
+print("Each one of " +noPeople +" of you should pay \n" + str(totalPay))
