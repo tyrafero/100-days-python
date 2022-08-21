@@ -6,7 +6,7 @@ height = input("Please enter your height in Cm \n")
 
 bmi= (float(weight)/(float(height)**2))*10000   #converting cm to metre
 bmi= round(bmi,2)
-print("Your BMI is " + str(bmi))
+# print("Your BMI is " + str(bmi))
 
 
 if bmi< 18.5:
