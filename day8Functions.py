@@ -10,7 +10,18 @@ def primeChecker(n):
     else:
         print(f"The given number {n} is not prime")
 
+
+#Method 2
 primeChecker(int(input("Enter any number: ")))
+
+n=int(input("Number"))
+for i in range(2,n):
+    if n%i==0:
+        print(f"Its composite: {str(n)}")
+        break
+else:
+    print(f"Its prime: {str(n)}")
+
         
 
 
