@@ -1,10 +1,9 @@
 # HANGMAN GAME #
 import random
-word_list= ["mia", "ava", "jonny", "riley", "angelia", "ryan"]
+word_list= ["mia", "ava", "jonny", "riley", "angelina", "ryan"]
 
 choosen_word= random.choice(word_list)
 
-# print(choosen_word)
 
 
 display=[]
@@ -14,7 +13,7 @@ for letter in range(len(choosen_word)):
 print("No of words: ")
 print(display)
 end= False
-n=6
+n=6 #number of lives
 while not end:
     guess_input=input("Enter your guess alphabet").lower()
     for letter in range(len(choosen_word)):
@@ -35,5 +34,7 @@ while not end:
     elif n==0:
         end= True
         print("Game Over")
+
+print(f"The word is:  {choosen_word}")
        
  

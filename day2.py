@@ -1,4 +1,5 @@
 print("Welcome to the tip calculator \n")
+print("----------------------------------------------------------------")
 totalBill= input("What was the total bill? \n")
 noPeople= input("Enter number of people \n")
 

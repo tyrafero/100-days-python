@@ -1,5 +1,5 @@
 import random
-print("The dice is rolled....")
+print("The coin is tossed....")
 choice= random.randint(0,1)
 
 if choice == 0:

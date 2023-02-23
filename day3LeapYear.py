@@ -1,3 +1,5 @@
+print("Program to check whether an inputed year is leap year")
+
 year= int(input("Enter year that you want to check \t"))
 
 if year%4 == 0 and year%100 !=0:
